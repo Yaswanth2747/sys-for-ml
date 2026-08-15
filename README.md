@@ -13,4 +13,4 @@
   </tr>
 </table>
 
-Assignments done as part of the course **Systems for ML (CS794), Spring 2026**.
+Assignments done as part of the course **Systems for ML (CS794), Spring 2026**, covering ML systems optimization using **PyTorch and CUDA**, including optimized **matrix multiplication kernels**, **KV-cache optimization for LLM inference**, and **FlashAttention** for efficient attention computation, with a focus on GPU performance, memory efficiency, and high-performance LLM inference.
