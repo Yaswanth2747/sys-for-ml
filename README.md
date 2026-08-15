@@ -1,3 +1,7 @@
+# sys-for-ml
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Yaswanth2747/sys-for-ml/main/assignment-01/plots/cover_page.jpg" alt="Systems for ML">
+  <img src="assignment-01/plots/cover_page.jpg" alt="Systems for ML" width="900">
 </p>
+
+Assignments done as part of the course **Systems for ML (CS794), Spring 2026**.
