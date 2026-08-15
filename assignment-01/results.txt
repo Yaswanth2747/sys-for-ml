@@ -1,0 +1,130 @@
+======================================================================
+EXPERIMENT 1
+Varying input length
+Fixed output length = 64
+======================================================================
+
+Running input length = 8
+Input tokens       : 8
+Output tokens      : 64
+Total time         : 0.5210 s
+Time/output token  : 8.140 ms
+Peak GPU memory    : 975.93 MB
+
+Running input length = 16
+Input tokens       : 16
+Output tokens      : 64
+Total time         : 0.5208 s
+Time/output token  : 8.137 ms
+Peak GPU memory    : 976.24 MB
+
+Running input length = 32
+Input tokens       : 32
+Output tokens      : 64
+Total time         : 0.5211 s
+Time/output token  : 8.142 ms
+Peak GPU memory    : 977.12 MB
+
+Running input length = 64
+Input tokens       : 64
+Output tokens      : 64
+Total time         : 0.5537 s
+Time/output token  : 8.652 ms
+Peak GPU memory    : 979.09 MB
+
+Running input length = 128
+Input tokens       : 128
+Output tokens      : 64
+Total time         : 0.7745 s
+Time/output token  : 12.101 ms
+Peak GPU memory    : 981.51 MB
+
+Running input length = 256
+Input tokens       : 256
+Output tokens      : 64
+Total time         : 1.3664 s
+Time/output token  : 21.351 ms
+Peak GPU memory    : 989.19 MB
+
+Running input length = 512
+Input tokens       : 512
+Output tokens      : 64
+Total time         : 2.7318 s
+Time/output token  : 42.685 ms
+Peak GPU memory    : 1018.61 MB
+
+
+======================================================================
+EXPERIMENT 2
+Varying output length
+Fixed input length = 32
+======================================================================
+
+Running output length = 8
+Input tokens       : 32
+Output tokens      : 8
+Total time         : 0.0684 s
+Time/output token  : 8.553 ms
+Peak GPU memory    : 974.71 MB
+
+Running output length = 16
+Input tokens       : 32
+Output tokens      : 16
+Total time         : 0.1369 s
+Time/output token  : 8.558 ms
+Peak GPU memory    : 975.02 MB
+
+Running output length = 32
+Input tokens       : 32
+Output tokens      : 32
+Total time         : 0.2571 s
+Time/output token  : 8.036 ms
+Peak GPU memory    : 975.63 MB
+
+Running output length = 64
+Input tokens       : 32
+Output tokens      : 64
+Total time         : 0.5298 s
+Time/output token  : 8.279 ms
+Peak GPU memory    : 977.12 MB
+
+Running output length = 128
+Input tokens       : 32
+Output tokens      : 128
+Total time         : 1.2472 s
+Time/output token  : 9.744 ms
+Peak GPU memory    : 979.62 MB
+
+Running output length = 256
+Input tokens       : 32
+Output tokens      : 256
+Total time         : 3.6576 s
+Time/output token  : 14.288 ms
+Peak GPU memory    : 986.74 MB
+
+
+======================================================================
+INPUT LENGTH RESULTS
+======================================================================
+   Input      Time(s)     ms/token     Memory(MB)
+--------------------------------------------------
+       8       0.5210        8.140         975.93
+      16       0.5208        8.137         976.24
+      32       0.5211        8.142         977.12
+      64       0.5537        8.652         979.09
+     128       0.7745       12.101         981.51
+     256       1.3664       21.351         989.19
+     512       2.7318       42.685        1018.61
+
+
+======================================================================
+OUTPUT LENGTH RESULTS
+======================================================================
+  Output      Time(s)     ms/token     Memory(MB)
+--------------------------------------------------
+       8       0.0684        8.553         974.71
+      16       0.1369        8.558         975.02
+      32       0.2571        8.036         975.63
+      64       0.5298        8.279         977.12
+     128       1.2472        9.744         979.62
+     256       3.6576       14.288         986.74
